@@ -1,0 +1,15 @@
+{
+  "data_uid": "b43ee8727a2a008d", 
+  "data_name": "Xored-specific CK entries", 
+  "dict": {
+    "url": "https://github.com/xored/ck-xored", 
+    "shared": "git", 
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-tensorflow"
+      }
+    ]
+  }, 
+  "data_alias": "ck-xored", 
+  "data_uoa": "ck-xored"
+}
