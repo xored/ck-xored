@@ -1,10 +1,5 @@
 #! /bin/bash
 
-# PACKAGE_DIR
-# INSTALL_DIR
-
-# KITTI_URL
-
 echo "Downloading images..."
 
 mkdir $IMAGE_DIR
