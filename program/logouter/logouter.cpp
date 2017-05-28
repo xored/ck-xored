@@ -49,8 +49,6 @@ DEFINE_string(snapshot, "",
 DEFINE_string(weights, "",
     "Optional; the pretrained weights to initialize finetuning, "
     "separated by ','. Cannot be set simultaneously with snapshot.");
-DEFINE_int32(iterations, 50,
-    "The number of iterations to run.");
 DEFINE_string(sigint_effect, "stop",
              "Optional; action to take when a SIGINT signal is received: "
               "snapshot, stop or none.");
@@ -165,7 +163,6 @@ int test() {
   // Instantiate the caffe net.
   Net<float> caffe_net(FLAGS_model, caffe::TEST, FLAGS_level, &stages);
   caffe_net.CopyTrainedLayersFrom(FLAGS_weights);
-  LOG(INFO) << "Running for " << FLAGS_iterations << " iterations.";
 
   bool tracked_exists = false;
   const int min_tracked_change = 5;

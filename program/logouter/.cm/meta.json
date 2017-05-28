@@ -131,7 +131,7 @@
       "local": "yes",
       "name": "Caffe model (net and weights)",
       "sort": 40,
-      "tags": "caffemodel,ssd"
+      "tags": "caffemodel,ssd,ssd-300,ssd-voc"
     }
   },
   "run_vars": {
