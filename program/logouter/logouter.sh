@@ -1,8 +1,5 @@
 #! /bin/bash
 
-# P=$PWD
-# cd "$CK_ENV_LIB_CAFFE/../src"
-
 cp "$CK_ENV_MODEL_CAFFE_LABELMAP" "labelmap_voc.prototxt"
 
 "./logouter" test --model=../test.prototxt --weights="$CK_ENV_MODEL_CAFFE_WEIGHTS" --gpu 0 | while read line; do
