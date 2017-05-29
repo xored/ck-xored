@@ -16,18 +16,17 @@
   }, 
   "deps": {}, 
   "end_full_path": {
-    "linux": "images/_DSC4727.jpg"
+    "linux": "images/xored-summertime-2016"
   }, 
   "need_cpu_info": "no", 
   "process_script": "install", 
   "soft_uoa": "dd47415baf24025e", 
-  "suggested_path": "xored-boat-prague-2016", 
+  "suggested_path": "xored-summertime-2016", 
   "tags": [
     "dataset", 
     "val", 
     "xored",
-    "boat",
-    "prague",
+    "summertime",
     "2016"
   ]
 }
