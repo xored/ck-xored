@@ -6,4 +6,7 @@ cp "$CK_ENV_MODEL_CAFFE_LABELMAP" "labelmap_voc.prototxt"
     if [ "$line" -eq "0" ]; then
         ${NO_PERSON_ACTION:-gnome-screensaver-command -l}
     fi
+    if [ "$line" -eq "1" ] && [ ! -z "$PERSON_ACTION" ] ; then
+        ${PERSON_ACTION}
+    fi
 done;
